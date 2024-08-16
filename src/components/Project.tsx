@@ -3,7 +3,7 @@ import React from 'react'
 function Project() {
   return (
     <div>
-      Under Construction
+      PROJECT Under Construction
     </div>
   )
 }

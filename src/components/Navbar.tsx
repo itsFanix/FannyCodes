@@ -9,13 +9,13 @@ function Navbar() {
                 <Link to="/">Home</Link>
             </li>
             <li>
-                <Link to="/">Experience</Link>
+                <Link to="/Experiences">Experience</Link>
             </li>
             <li>
-                <Link to="/">Project</Link>
+                <Link to="/Project">Project</Link>
             </li>
             <li>
-                <Link to="/">Blog</Link>
+                <Link to="/Blog">Blog</Link>
             </li>
         </ul>
     </nav>
