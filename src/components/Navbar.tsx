@@ -1,25 +1,38 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
-  return (
-    <nav>
-        <ul>
-            <li>
-                <Link to="/">Home</Link>
-            </li>
-            <li>
-                <Link to="/Experiences">Experience</Link>
-            </li>
-            <li>
-                <Link to="/Project">Project</Link>
-            </li>
-            <li>
-                <Link to="/Blog">Blog</Link>
-            </li>
-        </ul>
-    </nav>
-  )
+    return (
+        <nav className='mb-8 flex items-center justify-between py-5 '>
+            <div>
+                <h3  className=' m-6 text-xl font-semibold tracking-tight'>Fanny</h3>
+             </div>
+          
+                <ul className=' m-6 flex flex-row items-center justify-center gap-4 text-xl '>
+                    <li>
+                        <NavLink   to="/" className={({isActive}) => 
+                            isActive?  "underline underline-offset-4 decoration-blue-900" : "hover:text-blue-200 "
+                        }>Home</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/Experiences"  className={({isActive}) => 
+                            isActive?  " underline underline-offset-4  decoration-blue-900 " : "hover:text-blue-200 "
+                        }>Experience</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/Project"  className={({isActive}) => 
+                            isActive?  "underline underline-offset-4 decoration-blue-900" : "hover:text-blue-200 "
+                        }>Projects</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/Blog" className={({isActive}) => 
+                            isActive?  "underline underline-offset-4 decoration-blue-900" : "hover:text-blue-200 "
+                        }>Blog</NavLink>
+                    </li>
+                </ul>
+           
+        </nav>
+    )
 }
 
 export default Navbar
