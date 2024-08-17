@@ -1,9 +1,65 @@
 import React from 'react'
+import { FaLinkedin } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
+import { FaTwitterSquare } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
+
+import proficPic from "../assets/profilPicTwo.jpg"
 
 function Home() {
   return (
-    <div>
-       <h1>Under construction</h1>
+    <div className='pb-4 lg:mb-35'>
+      <div className='flex flex-wrap'>
+        <div className='w-full lg:w-1/2'>
+          <div className='flex p-4 flex-col items-center lg:items-start'>
+
+            <h1 className='pb-6 text-5xl font-thin tracking-tight lg:mt-16 lg:text-6xl 2xl:text-8xl'>
+              Fanny NYATSIKOR
+            </h1>
+            <span className='text-3xl tracking-tight'>
+              Sotfware Engineer
+            </span>
+
+            <p className='my-2 max-w-xl py-6 font-light tracking-tighter'>
+              I am curious
+              Language Learner enthouiast
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              Nisi ut aliquip ex ea commodo consequat.
+            </p>
+            
+          <div className='mx-auto w-1/2 max-w-md  m-5 flex flex-row justify-center items-center  gap-4 text-2xl'>
+            <FaLinkedin />
+            <FaGithub />
+            <FaTwitterSquare />
+            <FaInstagram />
+          </div>
+        
+
+          </div>
+
+        </div>
+
+        <div className='w-full lg:w-1/2 lg:p-8'>
+        <div className='flex justify-center'>
+
+          <img src={proficPic} alt="" className='rounded-2xl h-80 opacity-50  2xl:h-full' />
+        </div>
+
+        </div>
+        {/* <div className=' mt-20 lg:mt-80'>
+          <hr className='border-t border-gray-600 border-27 border-0.5 mx-auto  max-w-5xl ' />
+
+          <div className='mx-auto w-1/2 max-w-md  m-3 flex flex-row justify-center items-center  gap-4 text-2xl'>
+            <FaLinkedin />
+            <FaGithub />
+            <FaTwitterSquare />
+            <FaInstagram />
+          </div>
+        </div> */}
+      </div>
+
     </div>
   )
 }

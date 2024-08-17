@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
     return (
-        <nav className='mb-8 flex items-center justify-between py-5 '>
+        <nav className=' mb-8 flex items-center justify-between py-5 2xl:mb-36 '>
             <div>
-                <h3  className=' m-6 text-xl font-semibold tracking-tight'>Fanny</h3>
+                <h3  className=' text-xl font-semibold tracking-tight'>Fanny</h3>
              </div>
           
                 <ul className=' m-6 flex flex-row items-center justify-center gap-4 text-xl '>
