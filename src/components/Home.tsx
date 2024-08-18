@@ -5,6 +5,7 @@ import { FaTwitterSquare } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
 
 import proficPic from "../assets/profilPicTwo.jpg"
+import { ABOUT_ME } from '../data/info'
 
 function Home() {
   return (
@@ -13,27 +14,27 @@ function Home() {
         <div className='w-full lg:w-1/2'>
           <div className='flex p-4 flex-col items-center lg:items-start'>
 
-            <h1 className='pb-6 text-5xl font-thin tracking-tight lg:mt-16 lg:text-6xl 2xl:text-8xl'>
+            <h1 className='pb-4 text-5xl font-thin tracking-tight lg:mt-6 lg:text-6xl 2xl:text-7xl'>
               Fanny NYATSIKOR
             </h1>
-            <span className='text-3xl tracking-tight'>
-              Sotfware Engineer
+            <span className='text-2xl tracking-tight'>
+              Sotfware Engineer - Language Enthusiast
             </span>
 
-            <p className='my-2 max-w-xl py-6 font-light tracking-tighter'>
-              I am curious
-              Language Learner enthouiast
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-              Nisi ut aliquip ex ea commodo consequat.
+            <p className='my-2 max-w-xl py-4 font-light tracking-tighter'>
+             {ABOUT_ME}
             </p>
             
           <div className='mx-auto w-1/2 max-w-md  m-5 flex flex-row justify-center items-center  gap-4 text-2xl'>
-            <FaLinkedin />
-            <FaGithub />
-            <FaTwitterSquare />
-            <FaInstagram />
+          <a href='https://github.com/itsFanix' target='_blank'>
+          <FaGithub />
+          </a>
+           
+           <a href='https://www.linkedin.com/in/gnyatsikor/' target='_blank'>
+           <FaLinkedin />
+           </a>
+            
+            
           </div>
         
 
@@ -44,7 +45,7 @@ function Home() {
         <div className='w-full lg:w-1/2 lg:p-8'>
         <div className='flex justify-center'>
 
-          <img src={proficPic} alt="" className='rounded-2xl h-80 opacity-50  2xl:h-full' />
+          <img src={proficPic} alt="" className='rounded-2xl h-80 opacity-50 ' />
         </div>
 
         </div>

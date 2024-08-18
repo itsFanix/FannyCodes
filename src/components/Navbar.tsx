@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
     return (
-        <nav className=' mb-8 flex items-center justify-between py-5 2xl:mb-36 '>
+        <nav className=' mb-6 flex items-center justify-between py-5 2xl:mb-40 '>
             <div>
                 <h3  className=' text-xl font-semibold tracking-tight'>Fanny</h3>
              </div>
