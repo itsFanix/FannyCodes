@@ -12,15 +12,14 @@ function Home() {
     <div className='pb-4 lg:mb-35'>
       <div className='flex flex-wrap'>
         <div className='w-full lg:w-1/2'>
-          <div className='flex p-4 flex-col items-center lg:items-start'>
+          <div className='flex p-2 flex-col items-center lg:items-start'>
 
             <h1 className='pb-4 text-5xl font-thin tracking-tight lg:mt-6 lg:text-6xl 2xl:text-7xl'>
               Fanny NYATSIKOR
             </h1>
-            <span className='text-2xl tracking-tight'>
+            <span className='bg-gradient-to-r from-green-300 via-blue-400 to-purple-500 bg-clip-text text-2xl tracking-tight font-thin text-transparent'>
               Sotfware Engineer - Language Enthusiast
             </span>
-
             <p className='my-2 max-w-xl py-4 font-light tracking-tighter'>
              {ABOUT_ME}
             </p>
