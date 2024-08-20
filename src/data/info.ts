@@ -3,9 +3,9 @@ export const ABOUT_ME = "Curious about how systems work, I am an autonomous and 
 
 
 
-export const EXPERIENCE = [
+export const EXPERIENCES = [
     {
-        year : "2024",
+        year : "Mar-Sept 2024",
         role : "Android developper Intern",
         company : "ATEME",
         c_Logo : "",
@@ -13,15 +13,15 @@ export const EXPERIENCE = [
         technologies : ["Kotlin", "Git", "GitLab", "C++", "JNI", "Jetpack Compose"]
     },
     {
-        year : "2023-2024",
-        role : "Part-time research Engineer",
+        year : "Oct 2023 - Mar 2024",
+        role : "Part-time Research Engineer",
         company : "IRISA",
         c_Logo : "",
         description:  "Extending my contributions to the BMDEC project  which aims to design a decision-support tool: Explore identity and Access Management tool",
         technologies : ["Python", "Flask", "Git", "Gitlab", "Keycloack", "Docker"]
     },
     {
-        year : "2023",
+        year : "Jul-Sept 2023",
         role : "Research Engineer Intern",
         company : "IRISA",
         c_Logo : "",
@@ -29,7 +29,7 @@ export const EXPERIENCE = [
         technologies : ["Python", "Flask", "Git", "Gitlab"]
     },
     {
-        year : "2022",
+        year : "Jun-Aug 2022",
         role : " Web development Intern",
         company : "FAST",
         c_Logo : "",
