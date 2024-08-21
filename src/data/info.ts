@@ -5,7 +5,7 @@ export const ABOUT_ME = "Curious about how systems work, I am an autonomous and 
 
 export const EXPERIENCES = [
     {
-        year : "Mar-Sept 2024",
+        year : "MAR-SEPT 2024",
         role : "Android developper Intern",
         company : "ATEME",
         c_Logo : "",
@@ -13,7 +13,7 @@ export const EXPERIENCES = [
         technologies : ["Kotlin", "Git", "GitLab", "C++", "JNI", "Jetpack Compose"]
     },
     {
-        year : "Oct 2023 - Mar 2024",
+        year : "OCT 2023 - FEB 2024",
         role : "Part-time Research Engineer",
         company : "IRISA",
         c_Logo : "",
@@ -21,7 +21,7 @@ export const EXPERIENCES = [
         technologies : ["Python", "Flask", "Git", "Gitlab", "Keycloack", "Docker"]
     },
     {
-        year : "Jul-Sept 2023",
+        year : "JUL-SEPT 2023",
         role : "Research Engineer Intern",
         company : "IRISA",
         c_Logo : "",
@@ -29,7 +29,7 @@ export const EXPERIENCES = [
         technologies : ["Python", "Flask", "Git", "Gitlab"]
     },
     {
-        year : "Jun-Aug 2022",
+        year : "JUN-AUG 2022",
         role : " Web development Intern",
         company : "FAST",
         c_Logo : "",

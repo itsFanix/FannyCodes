@@ -9,7 +9,7 @@ import { ABOUT_ME } from '../data/info'
 
 function Home() {
   return (
-    <div className='pb-4 lg:mb-35'>
+    <div className='pb-4 lg:mb-35 lg:mt-36'>
       <div className='flex flex-wrap'>
         <div className='w-full lg:w-1/2'>
           <div className='flex p-2 flex-col items-center lg:items-start'>
