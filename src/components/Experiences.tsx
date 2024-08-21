@@ -20,19 +20,13 @@ function Experiences() {
           </motion.div>
 
           <motion.div 
-           whileInView = {{opacity: 0.80, x:0}}
+           whileInView = {{opacity: 0.70, x:0}}
            initial = {{opacity: 0, x: 100}}
           transition={{duration: 1}}
            whileHover={{
-            opacity: 10,
-              borderColor: "rgb(191,219, 254, 0.7)",
-              padding: "4px",
-              borderWidth: "1px",
-              backgroundColor: "rgb(191,219, 254, 0.1)" ,
-                borderRadius: "8px"
+            opacity: 1,
            }}
-           
-           className='w-full max-w-xl lg:w-3/4'
+           className='w-full max-w-xl lg:w-3/4 px-2 hover:bg-blue-200 hover:bg-opacity-10  hover:rounded-lg '
           >
             <h6 className='mb-2 font-semibold'>   {experience.role} - <span className='text-sm text-purple-100'>{experience.company}</span> </h6>
             <p className='mb-4 text-neutral-300'>{experience.description}</p>
