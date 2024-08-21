@@ -1,15 +1,14 @@
-import React from 'react'
+
 import { FaLinkedin } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
-import { FaTwitterSquare } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
 
-import proficPic from "../assets/profilPicTwo.jpg"
+import proficPic from "../assets/fotor-Fai.jpg"
 import { ABOUT_ME } from '../data/info'
 
 function Home() {
   return (
-    <div className='pb-4 lg:mb-35 lg:mt-36'>
+    <div className='pb-4 lg:mb-35 lg:mt-5 2xl:mt-36'>
       <div className='flex flex-wrap'>
         <div className='w-full lg:w-1/2'>
           <div className='flex p-2 flex-col items-center lg:items-start'>
@@ -44,7 +43,7 @@ function Home() {
         <div className='w-full lg:w-1/2 lg:p-8'>
         <div className='flex justify-center'>
 
-          <img src={proficPic} alt="" className='rounded-2xl h-80 opacity-50 ' />
+          <img src={proficPic} alt="" className='rounded-full h-80 opacity-80 ' />
         </div>
 
         </div>

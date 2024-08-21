@@ -28,7 +28,28 @@ function Experiences() {
            }}
            className='w-full max-w-xl lg:w-3/4 px-2 hover:bg-blue-200 hover:bg-opacity-10  hover:rounded-lg '
           >
-            <h6 className='mb-2 font-semibold'>   {experience.role} - <span className='text-sm text-purple-100'>{experience.company}</span> </h6>
+            <div className='flex flex-row justify-between items-center py-4' >
+            <h6 className='font-semibold'>  {experience.role}  </h6>
+                
+                <h2 className=' text-sm text-purple-100'>
+                {experience.company}
+                </h2> 
+               
+                <img src={experience.c_Logo} alt="" className='bg-slate-50 rounded p-2' width="90" height="90" />
+               
+              
+                 
+               
+               
+
+
+            </div>
+            {/* <h6 className='mb-2 font-semibold'>  {experience.role} - 
+              <span className='text-sm text-purple-100'>
+                {experience.company}
+                </span> 
+              
+                </h6> */}
             <p className='mb-4 text-neutral-300'>{experience.description}</p>
 
             <div className='flex flex-wrap'>
