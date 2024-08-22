@@ -4,6 +4,7 @@ import Home from "./components/Home"
 import Experiences from "./components/Experiences"
 import Project from "./components/Project"
 import Blog from "./components/Blog"
+import Footer from "./components/Footer"
 
 
 
@@ -30,7 +31,9 @@ function App() {
     </div>
    
     </div>
+    <Footer/>
    </div>
+   
   )
 }
 

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 function Experiences() {
   return (
-    <div className='cursor-pointer'>
+    <div className=' cursor-pointer '>
       <h1 className='mb-10 text-center'>Download my Resume</h1>
       <div >
       {EXPERIENCES.map((experience, index) =>(
@@ -16,7 +16,7 @@ function Experiences() {
            transition={{duration: 1}}
            className='w-full lg:w-1/4'
           >
-            <p className='text-green-300 text-sm'>{experience.year}</p>
+            <p className='text-green-300 text-lg'>{experience.year}</p>
           </motion.div>
 
           <motion.div 
@@ -26,16 +26,18 @@ function Experiences() {
            whileHover={{
             opacity: 1,
            }}
-           className='w-full max-w-xl lg:w-3/4 px-2 hover:bg-blue-200 hover:bg-opacity-10  hover:rounded-lg '
+           className=' w-full max-w-2xl lg:w-3/4  px-2 hover:shadow-lg hover:bg-blue-200 hover:bg-opacity-20  hover:rounded-lg '
           >
-            <div className='flex flex-row justify-between items-center py-4' >
-            <h6 className='font-semibold'>  {experience.role}  </h6>
+            <div className='flex flex-wrap flex-row justify-between items-center py-4' >
+            <h3 className='font-semibold lg:text-2xl text-xl'>  {experience.role}  </h3>
                 
-                <h2 className=' text-sm text-purple-100'>
+                <h2 className=' text-purple-100 text-xl' >
                 {experience.company}
                 </h2> 
+               <div className=' size-30 flex items-center '>
+               <img src={experience.c_Logo} alt="" className='bg-slate-50 rounded p-2 h-auto' width="100" height="100" />
+               </div>
                
-                <img src={experience.c_Logo} alt="" className='bg-slate-50 rounded p-2' width="90" height="90" />
                
               
                  

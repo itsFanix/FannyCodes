@@ -6,8 +6,8 @@ import proficPic from "../assets/fotor-Fai2.jpg"
 
 function Navbar() {
     return (
-        <nav className=' mb-4 flex itemscenter justify-between py-5 2xl:mb-20 '>
-            <div className='flex flex-row items-center '>
+        <nav className=' left-0 z-auto mb-4 flex itemscenter justify-between py-5 2xl:mb-20 '>
+            <div className='flex flex-row items-center  '>
                 {/* <img src={proficPic} alt="" className=' w-10 h-10 rounded-full ' /> */}
                 <h3  className=' text-sm  tracking-tight font-extralight italic'>FannyCodes</h3>
              </div>

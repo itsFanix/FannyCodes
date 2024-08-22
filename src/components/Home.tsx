@@ -8,7 +8,7 @@ import { ABOUT_ME } from '../data/info'
 
 function Home() {
   return (
-    <div className='pb-4 lg:mb-35 lg:mt-5 2xl:mt-36'>
+    <section className='pb-20 lg:mb-35 lg:mt-5 2xl:mt-36 '>
       <div className='flex flex-wrap'>
         <div className='w-full lg:w-1/2'>
           <div className='flex p-2 flex-col items-center lg:items-start'>
@@ -25,11 +25,11 @@ function Home() {
             
           <div className='mx-auto w-1/2 max-w-md  m-5 flex flex-row justify-center items-center  gap-4 text-2xl'>
           <a href='https://github.com/itsFanix' target='_blank'>
-          <FaGithub />
+          <FaGithub  className='size-10'/>
           </a>
            
            <a href='https://www.linkedin.com/in/gnyatsikor/' target='_blank'>
-           <FaLinkedin />
+           <FaLinkedin className='size-10' />
            </a>
             
             
@@ -59,7 +59,7 @@ function Home() {
         </div> */}
       </div>
 
-    </div>
+    </section>
   )
 }
 
