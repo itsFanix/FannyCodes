@@ -5,7 +5,9 @@ import { motion } from 'framer-motion'
 function Experiences() {
   return (
     <div className=' cursor-pointer '>
-      <h1 className='mb-10 text-center'>Download my Resume</h1>
+      <div className='flex justify-center mb-16'>
+      <h1 className=' bg-gradient-to-r from-green-300 via-blue-400 to-purple-500 bg-clip-text text-2xl tracking-tight font-thin text-transparent '> View Full Resume</h1>
+      </div>
       <div >
       {EXPERIENCES.map((experience, index) =>(
         <div 
@@ -16,7 +18,7 @@ function Experiences() {
            transition={{duration: 1}}
            className='w-full lg:w-1/4'
           >
-            <p className='text-green-300 text-lg'>{experience.year}</p>
+            <p className='text-green-300 text-lg '>{experience.year}</p>
           </motion.div>
 
           <motion.div 

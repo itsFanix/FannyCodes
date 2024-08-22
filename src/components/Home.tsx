@@ -8,7 +8,7 @@ import { ABOUT_ME } from '../data/info'
 
 function Home() {
   return (
-    <section className='pb-20 lg:mb-35 lg:mt-5 2xl:mt-36 '>
+    <section className=' lg:mt-3 2xl:mt-36 2xl:mb-28'>
       <div className='flex flex-wrap'>
         <div className='w-full lg:w-1/2'>
           <div className='flex p-2 flex-col items-center lg:items-start'>
@@ -19,7 +19,7 @@ function Home() {
             <span className='bg-gradient-to-r from-green-300 via-blue-400 to-purple-500 bg-clip-text text-2xl tracking-tight font-thin text-transparent'>
               Sotfware Engineer - Language Enthusiast
             </span>
-            <p className='my-2 max-w-xl py-4 font-light tracking-tighter'>
+            <p className='my-2 max-w-xl py-4 font-light tracking-tighter text-justify'>
              {ABOUT_ME}
             </p>
             

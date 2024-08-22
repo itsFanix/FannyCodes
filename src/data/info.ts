@@ -9,10 +9,10 @@ export const ABOUT_ME = "Curious about how systems work, I am an autonomous and 
 export const EXPERIENCES = [
     {
         year : "MAR-SEPT 2024",
-        role : "Android developper Intern",
+        role : "Android Developper Intern",
         company : "ATEME",
         c_Logo : ateme,
-        description:  "Develop a Multicast gateway Adaptive Bitrate(ABR) Streaming on an android platform",
+        description:  "Build and Multicast gateway Adaptive Bitrate(ABR) Streaming on an android platform",
         technologies : ["Kotlin", "Git", "GitLab", "C++", "JNI", "Jetpack Compose"]
     },
     {
@@ -20,7 +20,7 @@ export const EXPERIENCES = [
         role : "Part-time Research Engineer",
         company : "IRISA",
         c_Logo : irisa,
-        description:  "Extending my contributions to the BMDEC project  which aims to design a decision-support tool: Explore identity and Access Management tool",
+        description:  "Extended my contributions to reseach project  which aims to design a decision-support tool: Explored identity and Access Management tool",
         technologies : ["Python", "Flask", "Git", "Gitlab", "Keycloack", "Docker"]
     },
     {
@@ -28,15 +28,15 @@ export const EXPERIENCES = [
         role : "Research Engineer Intern",
         company : "IRISA",
         c_Logo : irisa,
-        description:  "Contributed to a research project(BMDEC), focused on analyzing transport user behavior to design decision support tool.Developed a web application for visualization and editing collected experimental  data ",
+        description:  "Contributed to a research project which focused on analyzing transport user behavior to design decision support tool. Developed a web application for visualization and editing collected experimental data<. I also Managed large datasets and utilized viusalization tools ",
         technologies : ["Python", "Flask", "Git", "Gitlab"]
     },
     {
         year : "JUN-AUG 2022",
-        role : " Web development Intern",
+        role : " Web Development Intern",
         company : "FAST",
         c_Logo :fast,
-        description:  "Develop a web service  added to the administrator web app, enabling the marketing team to generate user profiles",
+        description:  "Build a web component added to the administrator web app, enabling the marketing team to generate user profiles",
         technologies : ["C#", ".Net", "Angular","TypeScript", "Git","Fork" ]
     },
 ]
