@@ -40,3 +40,28 @@ export const EXPERIENCES = [
         technologies : ["C#", ".Net", "Angular","TypeScript", "Git","Fork" ]
     },
 ]
+
+export const PROJECTS = [
+    {
+        title :"",
+        image : "",
+        description : "",
+        technologies : [],
+        linkGithub : ""
+    },
+    {
+        title :"",
+        image : "",
+        description : "",
+        technologies : [],
+        linkGithub : ""
+    },
+    {
+        title :"",
+        image : "",
+        description : "",
+        technologies : [],
+        linkGithub : ""
+    }
+
+]
