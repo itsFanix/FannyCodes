@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { EXPERIENCES } from '../data/info'
 import { motion } from 'framer-motion'
 

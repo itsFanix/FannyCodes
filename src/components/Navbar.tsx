@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
-import React from 'react'
+// import React from 'react'
 import { NavLink } from 'react-router-dom'
-import proficPic from "../assets/fotor-Fai2.jpg"
+// import proficPic from "../assets/fotor-Fai2.jpg"
 
 
 function Navbar() {
