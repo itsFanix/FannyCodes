@@ -38,11 +38,11 @@ function Navbar() {
                             isActive?  "underline underline-offset-4 decoration-green-300" : "hover:text-blue-200 "
                         }>Projects</NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <NavLink to="/Blog" className={({isActive}) => 
                             isActive?  "underline underline-offset-4 decoration-green-300" : "hover:text-blue-200 "
                         }>Blog</NavLink>
-                    </li>
+                    </li> */}
                 </ul>
            
         </nav>

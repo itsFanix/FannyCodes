@@ -28,7 +28,7 @@ export const EXPERIENCES = [
         role : "Research Engineer Intern",
         company : "IRISA",
         c_Logo : irisa,
-        description:  "Contributed to a research project which focused on analyzing transport user behavior to design decision support tool. Developed a web application for visualization and editing collected experimental data<. I also Managed large datasets and utilized viusalization tools ",
+        description:  "Contributed to a research project which focused on analyzing transport user behavior to design decision support tool. Developed a web application for visualization and editing collected experimental data. I also Managed large datasets and utilized viusalization tools ",
         technologies : ["Python", "Flask", "Git", "Gitlab"]
     },
     {
@@ -43,10 +43,10 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
     {
-        title :"",
+        title :"PlayVerse",
         image : "",
         description : "",
-        technologies : [],
+        technologies : ["Flutter"],
         linkGithub : ""
     },
     {
