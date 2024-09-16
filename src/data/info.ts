@@ -12,7 +12,7 @@ export const EXPERIENCES = [
         role : "Android Developper Intern",
         company : "ATEME",
         c_Logo : ateme,
-        description:  "Build and Multicast gateway Adaptive Bitrate(ABR) Streaming on an android platform",
+        description:  "Design and build an Android based mobile application that receive and demultiplex multicasr ABR streams to make the content availaboe to OTT player ",
         technologies : ["Kotlin", "Git", "GitLab", "C++", "JNI", "Jetpack Compose"]
     },
     {

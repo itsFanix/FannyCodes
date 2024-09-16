@@ -15,7 +15,7 @@ const container = (delay: number) => ({
 
 function Home() {
   return (
-    <section className=' lg:mt-3 2xl:mt-36 2xl:mb-28'>
+    <section className=' lg:mt-20 2xl:mt-36 2xl:mb-28'>
       <div className='flex flex-wrap-reverse'>
         <div className='w-full lg:w-1/2'>
           <div className='flex p-2 flex-col items-center lg:items-start'>
