@@ -18,7 +18,7 @@ function App() {
     <div className="fixed inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(135%_135%_at_50%_10%,#1e293b_50%,#10b981_60%,#63e_100%)]">
     </div>
 
-    <div className="container mx-auto w-3/4 2xl:w-3/5">
+    <div className="container ">
     <Router>
       <Navbar />
       <Routes>

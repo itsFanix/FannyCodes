@@ -15,10 +15,12 @@ const container = (delay: number) => ({
 
 function Home() {
   return (
-    <section className='mx-auto lg:mt-20 2xl:mt-30 2xl:mb-28'>
-      <div className='flex flex-wrap-reverse'>
-        <div className='w-full lg:w-1/2'>
-          <div className='flex p-2 flex-col items-center lg:items-start'>
+    // <section className='mx-auto lg:mt-20 2xl:mt-30 2xl:mb-28'>
+      <div>
+        {/* className='w-full lg:w-1/2' */}
+        <div >
+        {/* className='flex p-2 flex-col items-center lg:items-start' */}
+          <div >
 
             <motion.h1
               variants={container(0)}
@@ -63,8 +65,8 @@ function Home() {
           </div>
 
         </div>
-
-        <div className='w-full lg:w-1/2 lg:p-8'>
+        {/* className='w-full lg:w-1/2 lg:p-8' */}
+        <div >
           <div className='flex justify-center'>
 
             <motion.img
@@ -87,7 +89,7 @@ function Home() {
         </div> */}
       </div>
 
-    </section>
+    // </section>
   )
 }
 
