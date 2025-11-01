@@ -13,7 +13,7 @@ const container = (delay: number) => ({
 
 function Home() {
   return (
-    // <section className='mx-auto lg:mt-20 2xl:mt-30 2xl:mb-28'>
+    // <section className="mx-auto lg:mt-20 2xl:mt-30 2xl:mb-28">
     <div>
       {/* className='w-full lg:w-1/2' */}
       <div>
@@ -85,7 +85,7 @@ function Home() {
           </div>
         </div> */}
     </div>
-
+    //{" "}
     // </section>
   );
 }
