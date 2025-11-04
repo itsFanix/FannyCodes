@@ -49,7 +49,7 @@ function Home() {
             variants={container(0)}
             initial="hidden"
             animate="visible"
-            className="mx-auto w-1/2 max-w-md  m-5 flex flex-row justify-center items-center  gap-4 text-2xl"
+            // className="mx-auto w-1/2 max-w-md  m-5 flex flex-row justify-center items-center  gap-4 text-2xl"
           >
             <a href="https://github.com/itsFanix" target="_blank">
               <FaGithub className="size-10" />
