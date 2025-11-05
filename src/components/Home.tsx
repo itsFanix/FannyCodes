@@ -14,11 +14,10 @@ const container = (delay: number) => ({
 function Home() {
   return (
     // <section className="mx-auto lg:mt-20 2xl:mt-30 2xl:mb-28">
-    <div className=" mx-auto w-[75vw] border border-white-600 border-27">
+    <div className=" mx-auto  py-auto w-[75vw] border border-white-600 border-27 flex flex-row justify-between">
       {/* className='w-full lg:w-1/2' */}
-      <div>
         {/* className='flex p-2 flex-col items-center lg:items-start' */}
-        <div>
+        <div className="">
           <motion.h1
             variants={container(0)}
             initial="hidden"
@@ -60,7 +59,7 @@ function Home() {
             </a>
           </motion.div>
         </div>
-      </div>
+      
       {/* className='w-full lg:w-1/2 lg:p-8' */}
       <div>
         <div className="">
@@ -70,7 +69,7 @@ function Home() {
             transition={{ duration: 1, delay: 0 }}
             src={proficPic}
             alt=""
-            className="rounded-full h-80 opacity-80 "
+            className="rounded-full h-60 opacity-80 "
           />
         </div>
       </div>

@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
     return (
-        <nav className=' mx-auto w-[75vw]  left-0 z-auto flex itemscenter justify-between py-5  '>
+        <nav className=' mx-auto w-[75vw]  left-0 z-auto flex items-center justify-between py-5  '>
             <div className='flex flex-row items-center  '>
                 {/* <img src={proficPic} alt="" className=' w-10 h-10 rounded-full ' /> */}
                 <h3  className=' text-sm  tracking-tight font-extralight italic'>FannyCodes</h3>
