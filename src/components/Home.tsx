@@ -14,7 +14,7 @@ const container = (delay: number) => ({
 function Home() {
   return (
     // <section className="mx-auto lg:mt-20 2xl:mt-30 2xl:mb-28">
-    <div>
+    <div className=" mx-auto w-[75vw] border border-white-600 border-27">
       {/* className='w-full lg:w-1/2' */}
       <div>
         {/* className='flex p-2 flex-col items-center lg:items-start' */}
