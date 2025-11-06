@@ -61,7 +61,7 @@ function Home() {
         </div>
       
       {/* className='w-full lg:w-1/2 lg:p-8' */}
-      <div>
+      {/* <div>
         <div className="">
           <motion.img
             initial={{ x: 100, opacity: 0 }}
@@ -72,7 +72,7 @@ function Home() {
             className="rounded-full h-60 opacity-80 "
           />
         </div>
-      </div>
+      </div> */}
       {/* <div className=' mt-20 lg:mt-80'>
           <hr className='border-t border-gray-600 border-27 border-0.5 mx-auto  max-w-5xl ' />
 
