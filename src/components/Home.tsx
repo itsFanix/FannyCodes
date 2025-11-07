@@ -2,7 +2,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 // import { FaInstagram } from 'react-icons/fa'
 
-import proficPic from "../assets/fotor-Fai.jpg";
+// import proficPic from "../assets/fotor-Fai.jpg";
 import { ABOUT_ME } from "../data/info";
 import { motion } from "framer-motion";
 
