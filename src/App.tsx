@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Experiences from "./components/Experiences";
 import Project from "./components/Project";
 import Blog from "./components/Blog";
+import Publications from "./components/Publications";
 //import Footer from "./components/Footer"
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/Publications" element={<Publications />} />
           <Route path="/Experiences" element={<Experiences />} />
           <Route path="/Project" element={<Project />} />
           <Route path="/Blog" element={<Blog />} />
